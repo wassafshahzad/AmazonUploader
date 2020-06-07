@@ -1,0 +1,34 @@
+<div class="contaienr_f">
+    <div class="center_text">
+        <h2>Ez PaperBack</h2>
+    </div>    
+    <form>
+            <div class="row">
+                <div class="six column">
+                    <label for="exampleEmailInput">Your email</label>
+                    <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="username" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four column">
+                    <label for="password">Your Password</label>
+                    <input class="u-full-width" type="password"  id="password" required> 
+                </div>
+            </div>
+            <div class = "row">
+                <label for="fopender">Upload excel file</label>
+                <input id ="fopener" class="button-primary" type="button" value="open" onclick="openFile()">
+                <span id="message"></span>
+            </div>
+            <label for="browser">Select the browser to use : </label>
+            <select id="browser" name="browser">
+              <option value="firefox">Firefox</option>
+              <option value="chrome">Chrome</option>
+            </select>
+            <div class = "row center_text">
+                <input id ="start" class="btn-new" type="button" value="upload" onclick="getUserNameAndPassword()">
+            </div>
+           
+        </form>  
+        
+</div>
